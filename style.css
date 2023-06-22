@@ -63,6 +63,7 @@ body {
     border-radius: 5px;
     font-size: 16px;
     box-shadow: 4px 7px 15px -3px rgb(237, 103, 85);
+    cursor: pointer;
 }
 
 .card2 {
