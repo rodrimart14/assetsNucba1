@@ -19,6 +19,7 @@ body {
 }
 
 .card {
+    position:relative;
     width: 432px;
     height: 399px;
     background-color: #ffffff;
@@ -32,9 +33,9 @@ body {
 }
 
 .card i {
-    position:relative;
-    top: -20px;
-    left: 170px;
+    position: absolute;
+    top: 25px;
+    right: 35px;
     color: rgba(164, 167, 180, 0.806);
     font-size: 20px;
     cursor: pointer;
@@ -63,3 +64,21 @@ body {
     font-size: 16px;
     box-shadow: 4px 7px 15px -3px rgb(237, 103, 85);
 }
+
+.card2 {
+    gap: 40px;
+}
+
+.card2 img {
+    width: 100px;
+    height: 100px;
+}
+.card2 p {
+    width: 50%;
+}
+
+.card2 button {
+    background-color: #2c3e50;
+    box-shadow: 4px 7px 15px -3px #2c3e50;
+}
+
